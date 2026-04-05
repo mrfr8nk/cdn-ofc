@@ -8,13 +8,14 @@
     "dev": "nodemon server.js"
   },
   "dependencies": {
+    "axios": "latest",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "octokit": "^2.0.10",
-    "axios": "latest",
-    "multer": "^1.4.5-lts.1"
+    "multer": "^1.4.5-lts.1",
+    "octokit": "^2.0.10"
   },
   "devDependencies": {
+    "jsdom": "^20.0.3",
     "nodemon": "^3.0.1"
   },
   "engines": {
